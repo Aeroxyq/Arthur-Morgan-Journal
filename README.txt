@@ -1,23 +1,13 @@
-Arthur Morgan's Journal — V1.2
+Arthur Morgan's Journal — V1.3 Bilingual
 
-V1.2 adds bilingual quest help (English + Hungarian) to every unlocked mission.
-The guide is spoiler-light and uses paraphrases rather than reproducing the game's full dialogue/objective text.
+Features:
+- Hungarian / English UI language selector on first launch and in Settings.
+- Existing localStorage progress is migrated to the new version and defaults to Hungarian.
+- Sequential spoiler-safe mission unlocking.
+- Bilingual quest help and quick glossary.
+- Export/import save.
+- PWA manifest and service worker.
+- Wildlife, horses, companions, campfire memories, gunslingers, newspaper, sketchbook and honor pages.
 
-Files:
-- index.html
-- style.css
-- app.js
-- manifest.json
-- sw.js
-
-GitHub Pages:
-1. Create a public repository.
-2. Upload the files to the repository root.
-3. Settings -> Pages -> Deploy from a branch -> main -> / (root).
-4. Open the generated https://<username>.github.io/<repository>/ URL.
-
-PWA note:
-For the service worker to register correctly, open the site through HTTPS (GitHub Pages), not as a local file.
-
-Progress:
-The app uses localStorage and keeps the same save key. Export a JSON backup before switching devices or browsers.
+Deploy:
+Upload the contents of this folder to the root of your GitHub Pages repository. Keep index.html at the repository root.
